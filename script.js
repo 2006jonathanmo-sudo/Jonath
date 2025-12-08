@@ -1,4 +1,4 @@
-// Heart data - exact pattern from original file
+// Heart data - exact pattern from original file 
 const heartPattern = [
     "          @@@@@@@@@@               @@@@@@@@@@@",
     "      @@@@@@@@@@@@@@@@@          @@@@@@@@@@@@@@@@@",
@@ -88,7 +88,7 @@ async function handleFormarCorazon() {
     await animateHeartTerminal();
     
     // Show final message
-    loverNameSpan.textContent = ', gracias amigos ! ♥';
+    loverNameSpan.textContent = ', gracias amigos dayan, cristian, eliazar, ricardo y julio y todos gracias por ser buenos amigos ! ♥';
     finalMessage.classList.remove('hidden');
     
     isAnimating = false;
