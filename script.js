@@ -88,7 +88,7 @@ async function handleFormarCorazon() {
     await animateHeartTerminal();
     
     // Show final message
-    loverNameSpan.textContent = ', gracias amigos dayan, cristian, eliazar, ricardo y julio y todos gracias por ser buenos amigos ! ♥';
+    loverNameSpan.textContent = ',dayan ! ♥';
     finalMessage.classList.remove('hidden');
     
     isAnimating = false;
